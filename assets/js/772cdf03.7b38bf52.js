@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcloudpbx_portal_docs=self.webpackChunkcloudpbx_portal_docs||[]).push([[1624],{2546:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/portal-docs-public/blog/tags/docusaurus","allTagsPath":"/portal-docs-public/blog/tags","count":1}')}}]);

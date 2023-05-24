@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>My Site Blog</title>
+        <link>https://olegshevtsov.github.io/portal-docs-public/blog</link>
+        <description>My Site Blog</description>
+        <lastBuildDate>Wed, 17 May 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Release Notes 0.55.0]]></title>
+            <link>https://olegshevtsov.github.io/portal-docs-public/blog/release-notes-0.55.0</link>
+            <guid>https://olegshevtsov.github.io/portal-docs-public/blog/release-notes-0.55.0</guid>
+            <pubDate>Wed, 17 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Release 0.55.0 brings SIP trunks and initial version of wallboards.]]></description>
+            <content:encoded><![CDATA[<p>Release 0.55.0 brings SIP trunks and initial version of wallboards.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-28 Allow users to change their first or expired password</li><li>ICAP-1251 Shared line appearance</li><li>ICAP-1659 Force clear cache and hard reload when there's a version mismatch</li><li>ICAP-1676 Add a warning to Reset 2FA key dialogue</li><li>ICAP-1804 Add validation for a port range used with SIP contact</li><li>ICAP-1814 Add validation for duplicate web logins and invalid web passwords</li></ul><p><strong>Bugs:</strong></p><ul><li>ICAP-1830 Prohibit to change a user's role when permissions are View only</li><li>ICAP-1552 Add white spaces to time intervals in German and Portuguese</li><li>ICAP-1591 Use the same style for confirmation dialogs to delete an auto-attendant menu</li><li>ICAP-1668 Size of the selectors that set hours for call screening time intervals</li><li>ICAP-1734 Warning about unsaved changes appears after deleting an entity with unsaved changes</li><li>ICAP-1753 Auto-generate a web password with the length defined by option Web.PasswordMinLength</li><li>ICAP-1756 Remove undefined from the action of an auto-attendant menu for event:f</li><li>ICAP-1803 Default protocol is not shown when enabling SIP contact</li><li>ICAP-1827 Layout issue with a very small-size donut сhart</li><li>ICAP-1829 Restrict changes of a forwarding mode for a View-only permission</li><li>ICAP-1831 Widget to monitor call volumes can be created without default options</li><li>ICAP-1838 "Selected extensions/ring" group and "Time range" are validated as empty even after they were filled in</li><li>ICAP-1841 Fix the warning for the dialog to reset the 2FA key</li><li>ICAP-1845 Fix the styling of the hint on tab Extension</li><li>ICAP-1850 Assigned extension is not shown in "Edit line" dialogue on device page</li><li>ICAP-1857 Errors on attempt to save auto-generated new password in "My profile"</li><li>ICAP-1858 Incorrect password length is used to generate and validate user password</li></ul>]]></content:encoded>
+            <category>release notes</category>
+            <category>portal</category>
+            <category>0.55.0</category>
+        </item>
+        <item>
+            <title><![CDATA[Release Notes 0.56.0]]></title>
+            <link>https://olegshevtsov.github.io/portal-docs-public/blog/release-notes-0.56.0</link>
+            <guid>https://olegshevtsov.github.io/portal-docs-public/blog/release-notes-0.56.0</guid>
+            <pubDate>Sat, 06 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Release 0.56.0 brings beautiful wallboards and bugfixes]]></description>
+            <content:encoded><![CDATA[<p>Release 0.56.0 brings beautiful wallboards and bugfixes</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-1592 Dashboard shows 0 in DIDs statistics if DID component is restricted by API role</li><li>ICAP-1633 Show time intervals for auto-attendant menus based on the value of period</li><li>ICAP-1081 Highlight the tab with an error to help users understand why their changes cannot be saved</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-1636 The quick access panel overlaps the dashboard</li><li>ICAP-1726 Disable the Save button for widget dialogues if their mandatory fields are not filled in</li><li>ICAP-1757 Show "Transfer to fax mailbox" instead of "Transfer to voicemail" if fax_only_mode is inherited by the auto-attendant from its product</li><li>ICAP-1828 Remove the unnecessary scroll for the call volumes widget</li><li>ICAP-1836 Fields are jumping on validating the port for SIP contact</li><li>ICAP-1842 Tab names for SIP trunk details and AA menu</li><li>ICAP-1847 Impossible to assign device lines to extensions except for the first line</li><li>ICAP-1851 Device name is shown like model if the same device has several lines assigned to the same extension</li><li>ICAP-1852 Unassigned device is cached after re-opening the Assign device dialogue</li><li>ICAP-1860 Cannot upload MOH for call queue in Ring Group on CloudPBX UI</li><li>ICAP-1854 Layout issues on the dashboard</li><li>ICAP-1855 Extension is not shown for an active call</li><li>ICAP-1861 The Save button is active for the dialogue even if no changes are made for a device/port assigned to an extension</li><li>ICAP-1865 The call queue on-hold music is disabled after a ringback tone is changed for the same ring group</li><li>ICAP-1866 Link in "Access to the extension portal" section does not redirect to tab Device</li><li>ICAP-1867 Number of calls checkbox is missing for Call volumes widget</li><li>ICAP-1869 Enabled "Number of calls" option of a call volume widget is reset when the "Show" filter changes its value</li></ul>]]></content:encoded>
+            <category>release notes</category>
+            <category>portal</category>
+            <category>0.56.0</category>
+        </item>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://olegshevtsov.github.io/portal-docs-public/blog/welcome</link>
+            <guid>https://olegshevtsov.github.io/portal-docs-public/blog/welcome</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
+            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/portal-docs-public/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
+            <category>facebook</category>
+            <category>hello</category>
+            <category>docusaurus</category>
+        </item>
+    </channel>
+</rss>
