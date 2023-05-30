@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://olegshevtsov.github.io/portal-docs-public/blog</id>
-    <title>My Site Blog</title>
-    <updated>2023-05-17T00:00:00.000Z</updated>
+    <title>Cloud Call Center Documentation Blog</title>
+    <updated>2023-05-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://olegshevtsov.github.io/portal-docs-public/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>Cloud Call Center Documentation Blog</subtitle>
     <icon>https://olegshevtsov.github.io/portal-docs-public/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release Notes 0.57.0]]></title>
+        <id>https://olegshevtsov.github.io/portal-docs-public/blog/release-notes-0.57.0</id>
+        <link href="https://olegshevtsov.github.io/portal-docs-public/blog/release-notes-0.57.0"/>
+        <updated>2023-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Release 0.57.0 brings wallboards in fullscreen mode, useful for creating information radiators for a team, such as big monitors or TV screens.]]></summary>
+        <content type="html"><![CDATA[<p>Release 0.57.0 brings wallboards in fullscreen mode, useful for creating information radiators for a team, such as big monitors or TV screens.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="enhancements">Enhancements:<a href="#enhancements" class="hash-link" aria-label="Direct link to Enhancements:" title="Direct link to Enhancements:">​</a></h3><ul><li>ICAP-1716: Allow users to open the Wallboard in a full-screen mode</li><li>ICAP-1744: Show a hyphen in Active calls column for the list of SIP trunks in case there are no active calls</li><li>ICAP-1873: Add new translations for German and Brazilian Portuguese</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="bugfixes">Bugfixes:<a href="#bugfixes" class="hash-link" aria-label="Direct link to Bugfixes:" title="Direct link to Bugfixes:">​</a></h3><ul><li>ICAP-1452: Call screening time filters display DB value instead of human-readable format</li><li>ICAP-1555: Pager is broken after a device is removed from a page following the first page</li><li>ICAP-1593: Portal crashes on opening extension page if API role restricts access to DID numbers</li><li>ICAP-1595: Newly created auto-attendant menu is not shown after going back to the menu list</li><li>ICAP-1599: Pager for device list is not changed after the upload</li><li>ICAP-1667: Login page is not returned after clicking Back in browser window from 2FA page</li><li>ICAP-1669: The wrong message is shown after generating and confirming MFA config from the profile page</li><li>ICAP-1677: Notification about enabling 2FA is not shown if MFA key was configured before</li><li>ICAP-1708: Do not show hours for calls that last for 1 minute</li><li>ICAP-1739: Counter for Fax mailboxes, DID numbers and Devices</li><li>ICAP-1740: Total is not changed after removing extension from the list</li><li>ICAP-1608: Remove the error if a file is chosen as a MOH file for a call queue</li><li>ICAP-1799: No German and Portuguese localization for call recording notification error</li><li>ICAP-1853: Error on attempt to open entity after confirming saving unsaved changes</li><li>ICAP-1868: "There is no data to display" is not shown for "Call volumes" widget if the time range is 5 or 7 days and there were no calls for this period</li><li>ICAP-1874: Non-standard style of the donut chart for a call volumes widget</li><li>ICAP-1875: Portal crashes on opening SIP trunk page if API role restricts access to DID numbers</li><li>ICAP-1877: The loading spinner is not centrally aligned when devices are being uploaded from a CSV file</li><li>ICAP-1888: Layout issue with localized Auto refresh rate</li></ul>]]></content>
+        <author>
+            <name>Oleg Shevtsov</name>
+            <uri>https://www.linkedin.com/in/olegshevtsov/</uri>
+        </author>
+        <category label="release notes" term="release notes"/>
+        <category label="portal" term="portal"/>
+        <category label="0.57.0" term="0.57.0"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release Notes 0.56.0]]></title>
         <id>https://olegshevtsov.github.io/portal-docs-public/blog/release-notes-0.56.0</id>
